@@ -91,6 +91,8 @@ header{
          /* DEBUG */
 
         width: 75%;
+        max-width: 1500px;
+        min-width: 720px;
         margin:auto;
         
         display: flex;
@@ -134,6 +136,9 @@ header{
 main .container{
     display: flex;
     flex-flow: column nowrap;
+    max-width: 1500px;
+    min-width: 720px;
+    margin: 0 auto;
 }
 
     /* Section */
@@ -364,6 +369,8 @@ footer .content_footer{
     /* DEBUG */
     width: 75%;
     margin: 0 auto;
+    max-width: 1500px;
+    min-width: 720px;
 }
 
 .content_inner{
@@ -458,5 +465,11 @@ footer .content_footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.btn_footer{
+    background-color: rgba(103, 123, 194, 0.2);
+    border: 1px solid rgb(68, 81, 125);
+    /* debug */
 }
 /* fine FOOTER */
