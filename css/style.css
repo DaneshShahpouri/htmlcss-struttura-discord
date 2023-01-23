@@ -22,114 +22,113 @@ header{
     background-color: rgba(37, 94, 233, 0.2);
 }
 
-    /* NAVBAR */
-        .nav{
-            background-color: rgba(37, 94, 233, 0.2);
-            /* DEBUG */
+/* NAVBAR */
+.nav{
+    background-color: rgba(37, 94, 233, 0.2);
+    /* DEBUG */
             
-            width: 75%;
-            max-width: 1500px;
-            min-width: 720px;
-            height: 70px;
-            margin: 0 auto;
+    width: 75%;
+    max-width: 1500px;
+    min-width: 720px;
+    height: 70px;
+    margin: 0 auto;
 
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-        .logo{
-            width: 120px;
-            height: 70px;
-            background-color: rgba(37, 94, 233, 0.2);
-            /* DEBUG */
-        }
+.logo{
+    width: 120px;
+    height: 70px;
+    background-color: rgba(37, 94, 233, 0.2);
+    /* DEBUG */
+}
 
-            /* NAVMENU */
-            .nav .nav_menu{
-                background-color: rgba(37, 94, 233, 0.2);
-            /* DEBUG */
-            }
+/* NAVMENU */
+.nav .nav_menu{
+    background-color: rgba(37, 94, 233, 0.2);
+    /* DEBUG */
+}
 
-            .nav_menu .link{
-                background-color: rgba(37, 94, 233, 0.2);
-                /* DEBUG */
+.nav_menu .link{
+    background-color: rgba(37, 94, 233, 0.2);
+    /* DEBUG */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
 
-                display: flex;
-                justify-content: center;
-                gap: 20px;
-            }
-
-            .nav_menu .link li{
-                background-color: rgba(37, 94, 233, 0.2);
-                width: 100px;
-                height: 30px;
-                /* DEBUG */
+.nav_menu .link li{
+    background-color: rgba(37, 94, 233, 0.2);
+    width: 100px;
+    height: 30px;
+    /* DEBUG */
                 
-                list-style-type: none;
+    list-style-type: none;
+}
 
-            }
+.nav_menu .link li a{
+    text-decoration: none;
+}
+/* fine NAVMENU */
 
-            .nav_menu .link li a{
-                text-decoration: none;
-            }
-            /* fine NAVMENU */
-
-        .nav .login{
-            width: 90px;
-            height: 30px;
-            background-color: rgba(37, 94, 233, 0.2);
-            border: 1px solid white;
-                /* DEBUG */
-        }
-    /* fine NAVBAR */
+.nav .login{
+    width: 90px;
+    height: 30px;
+    background-color: rgba(37, 94, 233, 0.2);
+    border: 1px solid white;
+     /* DEBUG */
+}
+/* fine NAVBAR */
     
-    /* JUMBO */
-    .jumbo{ 
-        height: 400px;
-        background-color: rgba(37, 94, 233, 0.2);
-         /* DEBUG */
+/* JUMBO */
+.jumbo{ 
+    height: 400px;
+    background-color: rgba(37, 94, 233, 0.2);
+     /* DEBUG */
 
-        width: 75%;
-        max-width: 1500px;
-        min-width: 720px;
-        margin:auto;
+    width: 75%;
+    max-width: 1500px;
+    min-width: 720px;
+    margin:auto;
         
-        display: flex;
-        flex-flow: column nowrap;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
     }
 
-        .jumbo h1{
-            width: 450px;
-            height: 30px;
-            background-color: rgba(37, 94, 233, 0.2);
-            /* DEBUG */
-        }
+.jumbo h1{
+    width: 450px;
+    height: 30px;
+    background-color: rgba(37, 94, 233, 0.2);
+    /* DEBUG */
+}
 
-        .jumbo .paragraph{
-            display: inline-block;
-            width: 450px;
-            height: 150px;
-            background-color: rgba(37, 94, 233, 0.2);
-            /* DEBUG */
-        }
+.jumbo .paragraph{
+    display: inline-block;
+    width: 450px;
+    height: 150px;
+    background-color: rgba(37, 94, 233, 0.2);
+    /* DEBUG */
+}
 
-        .jumbo .download_mac{
-            border: 1px solid white;
-            background-color: rgba(37, 94, 233, 0.2);
-            /* DEBUG */
-        }
+.jumbo .download_mac{
+    border: 1px solid white;
+    background-color: rgba(37, 94, 233, 0.2);
+    /* DEBUG */
+}
 
-        .jumbo .browser_open{
-            width: 140px;
-            border: 1px solid rgb(0, 0, 0);
-            background-color: rgba(37, 94, 233, 0.2);
-            /* DEBUG */
-        }
-    /* fineJUMBO */
+.jumbo .browser_open{
+    width: 140px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgba(37, 94, 233, 0.2);
+    /* DEBUG */
+}
+/* fineJUMBO */
 /* Fine HEADER */
 
 /* MAIN */
@@ -141,220 +140,219 @@ main .container{
     margin: 0 auto;
 }
 
-    /* Section */
-    .section{
-        height: 700px;
-        background-color: rgba(255, 255, 255,);
-        /* debug */
-    }
+/* Section */
+.section{
+    height: 700px;
+    background-color: rgba(255, 255, 255,);
+    /* debug */
+}
 
-    .section:nth-child(even){
-        background-color: rgba(0, 0, 0, 0.1);
-    }
+.section:nth-child(even){
+    background-color: rgba(0, 0, 0, 0.1);
+}
 
-    .section .section_inner{
-        width: 75%;
-        height: 100%;
-        margin: 0 auto;
+.section .section_inner{
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
 
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-    }
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
 
-    .section_inner .img_wrapper{
-        background-color: rgba(41, 40, 65, 0.4);
-        /* debug */
+.section_inner .img_wrapper{
+    background-color: rgba(41, 40, 65, 0.4);
+    /* debug */
 
-        width: 60%;
-        height: 450px;
+    width: 60%;
+    height: 450px;
         
-        display: flex;
-        justify-content: flex-end;
-    }
+    display: flex;
+    justify-content: flex-end;
+}
 
-    .section_inner .text{
-        width: 30%;
-        height: 450px;
-        background-color: rgba(41, 40, 65, 0.4);
-    }
+.section_inner .text{
+    width: 30%;
+    height: 450px;
+    background-color: rgba(41, 40, 65, 0.4);
+}
 
-    .section_inner .img_wrapper img{
-        width: 100%;
-        height: 100%;
-        background-color:rgba(41, 40, 65, 0.4);
-        /* debug */
+.section_inner .img_wrapper img{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(41, 40, 65, 0.4);
+    /* debug */
 
-        display: inline_block;
-    }
+    display: inline_block;
+}
 
-    /* section one*/
+/* section one*/
     
-            /* prova testo e imamgini  */
-            /* DA CANCELLARE */
-            .one .section_inner .img_wrapper img{
-                width: 100%;
-                height: 80%;
-                background-color:rgba(41, 40, 65, 0.4);
-                /* debug */
+/* prova testo e imamgini  */
+/* DA CANCELLARE */
+.one .section_inner .img_wrapper img{
+    width: 100%;
+    height: 80%;
+    background-color:rgba(41, 40, 65, 0.4);
+    /* debug */
         
-                display: inline_block;
-            }
+    display: inline_block;
+}
 
 
-            .one .section_inner .text h2{
-                width: 100%;
-                height: 250px;
-                background-color: rgba(41, 40, 65, 0.4);
-                /* debug */
-            }
+.one .section_inner .text h2{
+    width: 100%;
+    height: 250px;
+    background-color: rgba(41, 40, 65, 0.4);
+    /* debug */
+}
 
-            .one .section_inner .text p{
-                margin-top: 20px;
-                width: 100%;
-                height: 150px;
-                background-color: rgba(94, 93, 145, 0.4);
-                /* debug */
-            }
+.one .section_inner .text p{
+    margin-top: 20px;
+    width: 100%;
+    height: 150px;
+    background-color: rgba(94, 93, 145, 0.4);
+    /* debug */
+}
 
-           /* fine prova testo e immagini  */
+/* fine prova testo e immagini  */
     
-        /* fine section one*/
+/* fine section one*/
 
 
-        /* section two */
-        .two .section_inner .img_wrapper{
-           order: 2;
-        }
+/* section two */
+.two .section_inner .img_wrapper{
+   order: 2;
+}
 
-        .two .section_inner .text{
-            order: 1;
-        }
+.two .section_inner .text{
+    order: 1;
+}
 
-            /* prova testo e imamgini  */
-            /* DA CANCELLARE */
-            .two .section_inner .text h2{
-                width: 100%;
-                height: 150px;
-                background-color: rgba(41, 40, 65, 0.4);
-                /* debug */
-            }
-
-            .two .section_inner .text p{
-                margin-top: 20px;
-                width: 100%;
-                height: 200px;
-                background-color: rgba(94, 93, 145, 0.4);
-                /* debug */
-            }
-            /* fineprova testo e imamgini  */
+/* prova testo e imamgini  */
+/* DA CANCELLARE */
+.two .section_inner .text h2{
+    width: 100%;
+    height: 150px;
+    background-color: rgba(41, 40, 65, 0.4);
+    /* debug */
+}
+.two .section_inner .text p{
+    margin-top: 20px;
+    width: 100%;
+    height: 200px;
+    background-color: rgba(94, 93, 145, 0.4);
+    /* debug */
+}
+/* fineprova testo e imamgini  */
       
-        /* fine section two */
+/* fine section two */
 
 
-        /* section three */
-            /* prova testo e imamgini  */
-            /* DA CANCELLARE */
-                .three .section_inner .text h2{
-                    width: 100%;
-                    height: 150px;
-                    background-color: rgba(41, 40, 65, 0.4);
-                    /* debug */
-                }
+/* section three */
+/* prova testo e imamgini  */
+/* DA CANCELLARE */
+.three .section_inner .text h2{
+    width: 100%;
+    height: 150px;
+    background-color: rgba(41, 40, 65, 0.4);
+    /* debug */
+}
 
-                .three .section_inner .text p{
-                    margin-top: 20px;
-                    width: 100%;
-                    height: 200px;
-                    background-color: rgba(94, 93, 145, 0.4);
-                    /* debug */
-                }
-            /* fineprova testo e imamgini  */
+.three .section_inner .text p{
+    margin-top: 20px;
+    width: 100%;
+    height: 200px;
+    background-color: rgba(94, 93, 145, 0.4);
+    /* debug */
+}
+/* fineprova testo e imamgini  */
 
-        /* fine section three */
+/* fine section three */
 
 
-         /* section four */
-         .section.four .section_inner{
-            display: flex;
-            flex-flow: column nowrap;
-            justify-content: center;
-            align-items: center;
-            gap: 20px;
-        }
+/* section four */
+.section.four .section_inner{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
 
-        .four .section_inner .img_wrapper{
-            width: 80%;
-           order: 2;
-        }
+.four .section_inner .img_wrapper{
+    width: 80%;
+    order: 2;
+}
 
-        .four .section_inner .text{
-            width: 100%;
-            height: 200px;
-            background-color: rgba(41, 40, 65, 0.4);
-            /* debug */
+.four .section_inner .text{
+    width: 100%;
+    height: 200px;
+    background-color: rgba(41, 40, 65, 0.4);
+    /* debug */
 
-            display: flex;
-            flex-flow: column nowrap;
-            justify-content: center;
-            align-items: center;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
 
-            order: 1;
-        }
+    order: 1;
+}
 
-            /* prova testo e imamgini  */
-            /* DA CANCELLARE */
-            .four .section_inner .text h2{
-                width: 90%;
-                height: 50px;
-                background-color: rgba(41, 40, 65, 0.4);
-                /* debug */
-            }
+/* prova testo e imamgini  */
+/* DA CANCELLARE */
+.four .section_inner .text h2{
+    width: 90%;
+    height: 50px;
+    background-color: rgba(41, 40, 65, 0.4);
+    /* debug */
+}
 
-            .four .section_inner .text p{
-                margin-top: 20px;
-                width: 100%;
-                height: 100px;
-                background-color: rgba(94, 93, 145, 0.4);
-                /* debug */
-            }
-            /* fineprova testo e imamgini  */
+.four .section_inner .text p{
+    margin-top: 20px;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(94, 93, 145, 0.4);
+    /* debug */
+}
+/* fineprova testo e imamgini  */
       
-        /* fine section four */
+/* fine section four */
 
-        /* section five */
-        .five{
-            width: 100%;
-            margin: 0 auto;
-            height: 300px;
-            background-color: rgba(0, 0, 0, 0.1);
-            /* DEBUG */
+/* section five */
+.five{
+    width: 100%;
+    margin: 0 auto;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.1);
+    /* DEBUG */
 
-        }
+}
 
-        .five_inner{
-            width: 75%;
-            margin: 0 auto;
-            height: 100%;
+.five_inner{
+    width: 75%;
+    margin: 0 auto;
+    height: 100%;
 
-            display: flex;
-            flex-flow: column nowrap;
-            justify-content: center;
-            align-items: center;
-        }
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
 
-        .five span{
-            display: inline-block;
-            width: 400px;
-            height: 40px;
-            background-color: rgba(94, 93, 145, 0.4);
-            margin-bottom: 30px;
-                /* debug */
-        }
-        /* fine section five */
-    /* fine Section */
+.five span{
+    display: inline-block;
+    width: 400px;
+    height: 40px;
+    background-color: rgba(94, 93, 145, 0.4);
+    margin-bottom: 30px;
+        /* debug */
+}
+/* fine section five */
+/* fine Section */
 /* fineMAIN */
 
 /* FOOTER */
@@ -388,71 +386,70 @@ footer .content_footer{
     /* debug */
 }
 
-    /* Prima colonna */
-    .column h4{
-        width: 100%;
-        height: 150px;
-        background-color: rgba(94, 93, 145, 0.4);
-        /* debug */
-    }
+/* Prima colonna */
+.column h4{
+    width: 100%;
+    height: 150px;
+    background-color: rgba(94, 93, 145, 0.4);
+    /* debug */
+}
 
-    .column .select_wrapper{
-        display: flex;
-        align-items: center;
-        margin: 10px 0px;
-
-    }
+.column .select_wrapper{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+}
     
-    .column .select_wrapper .bandiera{
-        width: 25%;
-        height: 30px;
-        background-color: rgba(94, 93, 145, 0.4);
-        /* debug */
-    }
+.column .select_wrapper .bandiera{
+    width: 25%;
+    height: 30px;
+    background-color: rgba(94, 93, 145, 0.4);
+    /* debug */
+}
 
-    .column .select_wrapper #nation{
-        display: inline-block;
-        width: 70%;
-        height: 20px;
-        background-color: rgba(94, 93, 145, 0.4);
-        /* debug */
-    }
+.column .select_wrapper #nation{
+    display: inline-block;
+    width: 70%;
+    height: 20px;
+    background-color: rgba(94, 93, 145, 0.4);
+    /* debug */
+}
 
-    .column .social_wrapper{
-        width: 80%;
-        margin: 10 auto;
-        height: 50px;
-        background-color: rgba(94, 93, 145, 0.4);
-        /* debug */
+.column .social_wrapper{
+    width: 80%;
+    margin: 10 auto;
+    height: 50px;
+    background-color: rgba(94, 93, 145, 0.4);
+    /* debug */
 
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-    .column .social_wrapper .logo_social{
-        width: 30px;
-        height:30px;
-        background-color: rgba(94, 93, 145, 0.4);
-        /* debug */
-    }
-    /* finePrima colonna */
+.column .social_wrapper .logo_social{
+    width: 30px;
+    height:30px;
+    background-color: rgba(94, 93, 145, 0.4);
+    /* debug */
+}
+/* finePrima colonna */
 
-    .column ul{
-        list-style-type: none;
-    }
+.column ul{
+    list-style-type: none;
+}
 
-    .column ul li:first-child{
-        border: 1px solid rgb(13, 95, 188);
-    }
+.column ul li:first-child{
+    border: 1px solid rgb(13, 95, 188);
+}
 
-    ul li{
-        width: 90%;
-        height: 20px;
-        margin-top:10px;
-        background-color: rgba(94, 93, 145, 0.4);
-        /* debug */
-    }
+.column ul li{
+    width: 90%;
+    height: 20px;
+    margin-top:10px;
+    background-color: rgba(94, 93, 145, 0.4);
+    /* debug */
+}
 
     
 .content_inner .footer_bottom{
