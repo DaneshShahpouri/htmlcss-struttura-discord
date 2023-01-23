@@ -137,28 +137,14 @@ main .container{
 }
 
     /* Section */
-    .section.one{
+    .section{
         height: 700px;
         background-color: rgba(255, 255, 255,);
         /* debug */
     }
 
-    .section.two{
-        height: 700px;
+    .section:nth-child(even){
         background-color: rgba(0, 0, 0, 0.1);
-        /* debug */
-    }
-
-    .section.three{
-        height: 700px;
-        background-color: rgba(255, 255, 255,);
-        /* debug */
-    }
-
-    .section.four{
-        height: 700px;
-        background-color: rgba(0, 0, 0, 0.1);
-        /* debug */
     }
 
     .section .section_inner{
@@ -184,24 +170,34 @@ main .container{
         justify-content: flex-end;
     }
 
-    /* section one*/
-       
-        .one .section_inner .text{
-            width: 30%;
-            height: 450px;
-            background-color: rgba(41, 40, 65, 0.4);
-        }
+    .section_inner .text{
+        width: 30%;
+        height: 450px;
+        background-color: rgba(41, 40, 65, 0.4);
+    }
 
+    .section_inner .img_wrapper img{
+        width: 100%;
+        height: 100%;
+        background-color:rgba(41, 40, 65, 0.4);
+        /* debug */
+
+        display: inline_block;
+    }
+
+    /* section one*/
+    
             /* prova testo e imamgini  */
             /* DA CANCELLARE */
             .one .section_inner .img_wrapper img{
-                width: 95%;
+                width: 100%;
                 height: 80%;
                 background-color:rgba(41, 40, 65, 0.4);
                 /* debug */
-    
+        
                 display: inline_block;
             }
+
 
             .one .section_inner .text h2{
                 width: 100%;
@@ -229,24 +225,11 @@ main .container{
         }
 
         .two .section_inner .text{
-            width: 30%;
-            height: 450px;
-            background-color: rgba(41, 40, 65, 0.4);
-
             order: 1;
         }
 
             /* prova testo e imamgini  */
             /* DA CANCELLARE */
-            .two .section_inner .img_wrapper img{
-                width: 100%;
-                height: 100%;
-                background-color:rgba(41, 40, 65, 0.4);
-                /* debug */
-    
-                display: inline_block;
-            }
-
             .two .section_inner .text h2{
                 width: 100%;
                 height: 150px;
@@ -267,23 +250,8 @@ main .container{
 
 
         /* section three */
-            .three .section_inner .text{
-                width: 30%;
-                height: 450px;
-                background-color: rgba(41, 40, 65, 0.4);
-            }
-
             /* prova testo e imamgini  */
             /* DA CANCELLARE */
-                .three .section_inner .img_wrapper img{
-                    width: 100%;
-                    height: 100%;
-                    background-color:rgba(41, 40, 65, 0.4);
-                    /* debug */
-        
-                    display: inline_block;
-                }
-
                 .three .section_inner .text h2{
                     width: 100%;
                     height: 150px;
@@ -305,10 +273,6 @@ main .container{
 
          /* section four */
          .section.four .section_inner{
-            width: 75%;
-            height: 100%;
-            margin: 0 auto;
-    
             display: flex;
             flex-flow: column nowrap;
             justify-content: center;
@@ -337,15 +301,6 @@ main .container{
 
             /* prova testo e imamgini  */
             /* DA CANCELLARE */
-            .four .section_inner .img_wrapper img{
-                width: 100%;
-                height: 100%;
-                background-color:rgba(41, 40, 65, 0.4);
-                /* debug */
-    
-                display: inline_block;
-            }
-
             .four .section_inner .text h2{
                 width: 90%;
                 height: 50px;
@@ -440,12 +395,14 @@ footer .content_footer{
         margin: 10px 0px;
 
     }
+    
     .column .select_wrapper .bandiera{
         width: 25%;
         height: 30px;
         background-color: rgba(94, 93, 145, 0.4);
         /* debug */
     }
+
     .column .select_wrapper #nation{
         display: inline-block;
         width: 70%;
