@@ -362,7 +362,6 @@ footer{
 }
 
 footer .content_footer{
-    height: 500px;
     background-color: rgba(234, 234, 255, 0.2);
     /* DEBUG */
     width: 75%;
@@ -380,10 +379,9 @@ footer .content_footer{
 }
 
 .content_inner .column{
-    height: 350px;
     background-color:  rgba(234, 234, 255, 0.2);
-    width: 19%;
     /* debug */
+    width: 20%;
 }
 
 /* Prima colonna */
@@ -401,26 +399,28 @@ footer .content_footer{
 }
     
 .column .select_wrapper .bandiera{
-    width: 25%;
-    height: 30px;
     background-color:  rgba(234, 234, 255, 0.2);
     /* debug */
+
+     width: 25%;
+    height: 30px;
 }
 
 .column .select_wrapper #nation{
-    display: inline-block;
-    width: 70%;
-    height: 20px;
     background-color:  rgba(234, 234, 255, 0.2);
     /* debug */
+
+     display: inline-block;
+    width: 70%;
+    height: 20px;
 }
 
 .column .social_wrapper{
+    background-color: rgba(234, 234, 255, 0.2);
+    /* debug */
     width: 80%;
     margin: 10 auto;
     height: 50px;
-    background-color: rgba(234, 234, 255, 0.2);
-    /* debug */
 
     display: flex;
     justify-content: space-between;
@@ -442,6 +442,7 @@ footer .content_footer{
 .column ul li:first-child{
     background-color: rgba(13, 95, 188, 0.459);
     border: 1px solid rgb(13, 95, 188);
+    /* debug */
 }
 
 .column ul li{
@@ -451,14 +452,14 @@ footer .content_footer{
     background-color: rgba(234, 234, 255, 0.2);
     /* debug */
 }
-
-    
+  
 .content_inner .footer_bottom{
     height: 70px;
     background-color:  rgba(234, 234, 255, 0.2);
     /* debug */
     width: 100%;
     border-top: 2px solid rgb(79, 93, 140);
+    margin-top: 10px;
 
     display: flex;
     justify-content: space-between;
