@@ -38,7 +38,7 @@ header{
             align-items: center;
         }
 
-        .nav .logo{
+        .logo{
             width: 120px;
             height: 70px;
             background-color: rgba(37, 94, 233, 0.2);
@@ -323,7 +323,7 @@ main .container{
 
         .four .section_inner .text{
             width: 100%;
-            height: 250px;
+            height: 200px;
             background-color: rgba(41, 40, 65, 0.4);
             /* debug */
 
@@ -366,10 +366,18 @@ main .container{
 
         /* section five */
         .five{
+            width: 100%;
+            margin: 0 auto;
+            height: 300px;
+            background-color: rgba(0, 0, 0, 0.1);
+            /* DEBUG */
+
+        }
+
+        .five_inner{
             width: 75%;
             margin: 0 auto;
-            height: 200px;
-            /* DEBUG */
+            height: 100%;
 
             display: flex;
             flex-flow: column nowrap;
@@ -382,9 +390,116 @@ main .container{
             width: 400px;
             height: 40px;
             background-color: rgba(94, 93, 145, 0.4);
-            margin-bottom: 20px;
+            margin-bottom: 30px;
                 /* debug */
         }
         /* fine section five */
     /* fine Section */
 /* fineMAIN */
+
+/* FOOTER */
+footer{
+    background-color: rgba(35, 39, 42, 0.3)
+    /* DEBUG */
+}
+
+footer .content_footer{
+    height: 500px;
+    background-color: rgba(94, 93, 145, 0.4);
+    /* DEBUG */
+    width: 75%;
+    margin: 0 auto;
+}
+
+.content_inner{
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.content_inner .column{
+    height: 350px;
+    background-color: rgba(94, 93, 145, 0.4);
+    width: 19%;
+    /* debug */
+}
+
+    /* Prima colonna */
+    .column h4{
+        width: 100%;
+        height: 150px;
+        background-color: rgba(94, 93, 145, 0.4);
+        /* debug */
+    }
+
+    .column .select_wrapper{
+        display: flex;
+        align-items: center;
+        margin: 10px 0px;
+
+    }
+    .column .select_wrapper .bandiera{
+        width: 25%;
+        height: 30px;
+        background-color: rgba(94, 93, 145, 0.4);
+        /* debug */
+    }
+    .column .select_wrapper #nation{
+        display: inline-block;
+        width: 70%;
+        height: 20px;
+        background-color: rgba(94, 93, 145, 0.4);
+        /* debug */
+    }
+
+    .column .social_wrapper{
+        width: 80%;
+        margin: 10 auto;
+        height: 50px;
+        background-color: rgba(94, 93, 145, 0.4);
+        /* debug */
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .column .social_wrapper .logo_social{
+        width: 30px;
+        height:30px;
+        background-color: rgba(94, 93, 145, 0.4);
+        /* debug */
+    }
+    /* finePrima colonna */
+
+    .column ul{
+        list-style-type: none;
+    }
+
+    .column ul li:first-child{
+        border: 1px solid rgb(13, 95, 188);
+    }
+
+    ul li{
+        width: 90%;
+        height: 20px;
+        margin-top:10px;
+        background-color: rgba(94, 93, 145, 0.4);
+        /* debug */
+    }
+
+    
+.content_inner .footer_bottom{
+    height: 70px;
+    background-color: rgba(94, 93, 145, 0.4);
+    /* debug */
+    width: 100%;
+    border-top: 2px solid rgb(79, 93, 140);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* fine FOOTER */
