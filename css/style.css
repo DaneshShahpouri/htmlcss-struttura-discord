@@ -1,72 +1,130 @@
+/* UTILITY */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+.btn{
+    width:100px;
+    height: 30px;
+    /* DEBUG */
+    
+    border-radius: 20px;
+}
+/* fineUTILITY */
+
+/* ------------------------------------------- */
+
 /* HEADER */
 header{
     background-color: rgba(37, 94, 233, 0.2);
 }
 
-header .nav{
-    background-color: rgba(37, 94, 233, 0.2);
-    /* DEBUG */
+    /* NAVBAR */
+        .nav{
+            background-color: rgba(37, 94, 233, 0.2);
+            /* DEBUG */
+            
+            width: 75%;
+            max-width: 1500px;
+            min-width: 720px;
+            height: 70px;
+            margin: 0 auto;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav .logo{
+            width: 120px;
+            height: 70px;
+            background-color: rgba(37, 94, 233, 0.2);
+            /* DEBUG */
+        }
+
+            /* NAVMENU */
+            .nav .nav_menu{
+                background-color: rgba(37, 94, 233, 0.2);
+            /* DEBUG */
+            }
+
+            .nav_menu .link{
+                background-color: rgba(37, 94, 233, 0.2);
+                /* DEBUG */
+
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+            }
+
+            .nav_menu .link li{
+                background-color: rgba(37, 94, 233, 0.2);
+                width: 100px;
+                height: 30px;
+                /* DEBUG */
+                
+                list-style-type: none;
+
+            }
+
+            .nav_menu .link li a{
+                text-decoration: none;
+            }
+            /* fine NAVMENU */
+
+        .nav .login{
+            width: 90px;
+            height: 30px;
+            background-color: rgba(37, 94, 233, 0.2);
+            border: 1px solid white;
+                /* DEBUG */
+        }
+    /* fine NAVBAR */
     
-    width: 75%;
-    max-width: 1500px;
-    min-width: 720px;
-    height: 70px;
-    margin: 0 auto;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.nav .logo{
-    width: 120px;
-    height: 70px;
-    background-color: rgba(37, 94, 233, 0.2);
-    /* DEBUG */
-}
-
-    /* NAVMENU */
-    .nav .nav_menu{
+    /* JUMBO */
+    .jumbo{ 
+        height: 400px;
         background-color: rgba(37, 94, 233, 0.2);
-    /* DEBUG */
+         /* DEBUG */
+
+        width: 75%;
+        margin:auto;
         
-    }
-
-
-    .nav .nav_menu .link{
-        background-color: rgba(37, 94, 233, 0.2);
-        /* DEBUG */
-
         display: flex;
+        flex-flow: column nowrap;
         justify-content: center;
-        gap: 20px;
+        align-items: center;
+        gap: 10px;
     }
 
-    .nav .nav_menu .link li{
-        background-color: rgba(37, 94, 233, 0.2);
-        width: 100px;
-        height: 30px;
-        /* DEBUG */
-        
-        list-style-type: none;
+        .jumbo h1{
+            width: 450px;
+            height: 30px;
+            background-color: rgba(37, 94, 233, 0.2);
+            /* DEBUG */
+        }
 
-    }
-    /* fine NAVMENU */
+        .jumbo .paragraph{
+            display: inline-block;
+            width: 450px;
+            height: 150px;
+            background-color: rgba(37, 94, 233, 0.2);
+            /* DEBUG */
+        }
 
-.nav .login{
-    width: 90px;
-    height: 30px;
-    background-color: rgba(37, 94, 233, 0.2);
-        /* DEBUG */
+        .jumbo .download_mac{
+            border: 1px solid white;
+            background-color: rgba(37, 94, 233, 0.2);
+            /* DEBUG */
+        }
 
-    border-radius: 20px;
-    border: 1px solid white;
-}
-
+        .jumbo .browser_open{
+            width: 140px;
+            border: 1px solid rgb(0, 0, 0);
+            background-color: rgba(37, 94, 233, 0.2);
+            /* DEBUG */
+        }
+    /* fineJUMBO */
 /* Fine HEADER */
