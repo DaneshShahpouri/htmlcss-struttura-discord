@@ -351,7 +351,11 @@ footer .content_footer{
 }
 
 .content_inner .column{
-    width: 20%;
+    width: 18% ;
+}
+
+.content_inner .column:first-child{
+    width: 25%;
 }
 
 /* Prima colonna */
