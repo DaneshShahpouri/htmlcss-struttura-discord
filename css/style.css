@@ -22,11 +22,12 @@ header{
     background-color: rgba(37, 94, 233, 0.2);
 }
 
-/* NAVBAR */
-.nav{
+header *{
     background-color: rgba(37, 94, 233, 0.2);
-    /* DEBUG */
-            
+}
+
+/* NAVBAR */
+.nav{       
     width: 75%;
     max-width: 1500px;
     min-width: 720px;
@@ -40,28 +41,19 @@ header{
 
 .logo{
     width: 120px;
-    height: 70px;
-    background-color: rgba(37, 94, 233, 0.2);
+    height: 70px;   
     /* DEBUG */
 }
 
 /* NAVMENU */
-.nav .nav_menu{
-    background-color: rgba(37, 94, 233, 0.2);
-    /* DEBUG */
-}
-
-.nav_menu .link{
-    background-color: rgba(37, 94, 233, 0.2);
-    /* DEBUG */
+.nav_menu .link{ 
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
 
-.nav_menu .link li{
-    background-color: rgba(37, 94, 233, 0.2);
+.nav_menu .link li{  
     width: 100px;
     height: 30px;
     /* DEBUG */
@@ -77,8 +69,7 @@ header{
 .nav .login{
     width: 90px;
     height: 30px;
-    background-color: rgba(37, 94, 233, 0.2);
-    border: 1px solid white;
+    border: 2px solid white;
      /* DEBUG */
 }
 /* fine NAVBAR */
@@ -86,7 +77,6 @@ header{
 /* JUMBO */
 .jumbo{ 
     height: 400px;
-    background-color: rgba(37, 94, 233, 0.2);
      /* DEBUG */
 
     width: 75%;
@@ -104,7 +94,6 @@ header{
 .jumbo h1{
     width: 450px;
     height: 30px;
-    background-color: rgba(37, 94, 233, 0.2);
     /* DEBUG */
 }
 
@@ -112,26 +101,27 @@ header{
     display: inline-block;
     width: 450px;
     height: 150px;
-    background-color: rgba(37, 94, 233, 0.2);
     /* DEBUG */
 }
 
 .jumbo .download_mac{
-    border: 1px solid white;
-    background-color: rgba(37, 94, 233, 0.2);
+    border: 2px solid white;
     /* DEBUG */
 }
 
 .jumbo .browser_open{
     width: 140px;
-    border: 1px solid rgb(0, 0, 0);
-    background-color: rgba(37, 94, 233, 0.2);
+    border: 2px solid rgb(0, 0, 0);
     /* DEBUG */
 }
 /* fineJUMBO */
 /* Fine HEADER */
 
 /* MAIN */
+main *{
+    background-color: rgb(0 158 7 / 20%);
+}
+
 main .container{
     display: flex;
     flex-flow: column nowrap;
@@ -143,12 +133,12 @@ main .container{
 /* Section */
 .section{
     height: 700px;
-    background-color: rgba(255, 255, 255,);
+    background-color: rgb(255, 255, 255);
     /* debug */
 }
 
 .section:nth-child(even){
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgb(246, 246, 246);
 }
 
 .section .section_inner{
@@ -164,9 +154,6 @@ main .container{
 }
 
 .section_inner .img_wrapper{
-    background-color: rgba(41, 40, 65, 0.4);
-    /* debug */
-
     width: 60%;
     height: 450px;
         
@@ -177,16 +164,13 @@ main .container{
 .section_inner .text{
     width: 30%;
     height: 450px;
-    background-color: rgba(41, 40, 65, 0.4);
 }
 
 .section_inner .img_wrapper img{
     width: 100%;
     height: 100%;
-    background-color:rgba(41, 40, 65, 0.4);
     display: inline_block;
     /* debug */
-
 }
 
 /* section one*/
@@ -196,7 +180,6 @@ main .container{
 .one .section_inner .img_wrapper img{
     width: 100%;
     height: 80%;
-    background-color:rgba(41, 40, 65, 0.4);
     display: inline_block;
     /* debug */
         
@@ -206,7 +189,6 @@ main .container{
 .one .section_inner .text h2{
     width: 100%;
     height: 250px;
-    background-color: rgba(41, 40, 65, 0.4);
     /* debug */
 }
 
@@ -214,14 +196,11 @@ main .container{
     margin-top: 20px;
     width: 100%;
     height: 150px;
-    background-color: rgba(255, 255, 255, 0.4);
     /* debug */
 }
 
 /* fine prova testo e immagini  */
-    
 /* fine section one*/
-
 
 /* section two */
 .two .section_inner .img_wrapper{
@@ -237,18 +216,15 @@ main .container{
 .two .section_inner .text h2{
     width: 100%;
     height: 150px;
-    background-color: rgba(41, 40, 65, 0.4);
     /* debug */
 }
 .two .section_inner .text p{
     margin-top: 20px;
     width: 100%;
     height: 200px;
-    background-color: rgba(255, 255, 255, 0.4);
     /* debug */
 }
-/* fineprova testo e imamgini  */
-      
+/* fineprova testo e imamgini  */ 
 /* fine section two */
 
 
@@ -258,7 +234,6 @@ main .container{
 .three .section_inner .text h2{
     width: 100%;
     height: 150px;
-    background-color: rgba(41, 40, 65, 0.4);
     /* debug */
 }
 
@@ -266,13 +241,10 @@ main .container{
     margin-top: 20px;
     width: 100%;
     height: 200px;
-    background-color: rgba(255, 255, 255, 0.4);
     /* debug */
 }
 /* fineprova testo e imamgini  */
-
 /* fine section three */
-
 
 /* section four */
 .section.four .section_inner{
@@ -291,14 +263,12 @@ main .container{
 .four .section_inner .text{
     width: 100%;
     height: 200px;
-    background-color: rgba(41, 40, 65, 0.4);
     /* debug */
 
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-
     order: 1;
 }
 
@@ -307,7 +277,6 @@ main .container{
 .four .section_inner .text h2{
     width: 90%;
     height: 50px;
-    background-color: rgba(41, 40, 65, 0.4);
     /* debug */
 }
 
@@ -315,11 +284,9 @@ main .container{
     margin-top: 20px;
     width: 100%;
     height: 100px;
-    background-color: rgba(255, 255, 255, 0.4);
     /* debug */
 }
-/* fineprova testo e imamgini  */
-      
+/* fineprova testo e imamgini  */   
 /* fine section four */
 
 /* section five */
@@ -327,9 +294,8 @@ main .container{
     width: 100%;
     margin: 0 auto;
     height: 300px;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgb(246, 246, 246);
     /* DEBUG */
-
 }
 
 .five_inner{
@@ -347,9 +313,13 @@ main .container{
     display: inline-block;
     width: 400px;
     height: 40px;
-    background-color: rgba(255, 255, 255, 0.4);
     margin-bottom: 30px;
         /* debug */
+}
+
+.five .btn_five{
+    border: 2px solid rgb(114, 137, 218);
+    /* debug */
 }
 /* fine section five */
 /* fine Section */
@@ -361,9 +331,11 @@ footer{
     /* DEBUG */
 }
 
+footer *{
+background-color:  rgb(234, 234, 255, 0.1);
+}
+
 footer .content_footer{
-    background-color: rgba(234, 234, 255, 0.2);
-    /* DEBUG */
     width: 75%;
     margin: 0 auto;
     max-width: 1500px;
@@ -379,8 +351,6 @@ footer .content_footer{
 }
 
 .content_inner .column{
-    background-color:  rgba(234, 234, 255, 0.2);
-    /* debug */
     width: 20%;
 }
 
@@ -388,7 +358,7 @@ footer .content_footer{
 .column h4{
     width: 100%;
     height: 150px;
-    background-color:  rgba(13, 95, 188, 0.4);
+    border:2px solid rgb(13, 95, 188);
     /* debug */
 }
 
@@ -399,25 +369,17 @@ footer .content_footer{
 }
     
 .column .select_wrapper .bandiera{
-    background-color:  rgba(234, 234, 255, 0.2);
-    /* debug */
-
-     width: 25%;
+    width: 25%;
     height: 30px;
 }
 
 .column .select_wrapper #nation{
-    background-color:  rgba(234, 234, 255, 0.2);
-    /* debug */
-
-     display: inline-block;
+    display: inline-block;
     width: 70%;
     height: 20px;
 }
 
 .column .social_wrapper{
-    background-color: rgba(234, 234, 255, 0.2);
-    /* debug */
     width: 80%;
     margin: 10 auto;
     height: 50px;
@@ -430,7 +392,6 @@ footer .content_footer{
 .column .social_wrapper .logo_social{
     width: 30px;
     height:30px;
-    background-color:  rgba(234, 234, 255, 0.2);
     /* debug */
 }
 /* finePrima colonna */
@@ -440,8 +401,7 @@ footer .content_footer{
 }
 
 .column ul li:first-child{
-    background-color: rgba(13, 95, 188, 0.459);
-    border: 1px solid rgb(13, 95, 188);
+    border: 2px solid rgb(13, 95, 188);
     /* debug */
 }
 
@@ -449,13 +409,11 @@ footer .content_footer{
     width: 90%;
     height: 20px;
     margin-top:10px;
-    background-color: rgba(234, 234, 255, 0.2);
     /* debug */
 }
   
 .content_inner .footer_bottom{
     height: 70px;
-    background-color:  rgba(234, 234, 255, 0.2);
     /* debug */
     width: 100%;
     border-top: 2px solid rgb(79, 93, 140);
@@ -467,8 +425,7 @@ footer .content_footer{
 }
 
 .btn_footer{
-    background-color: rgba(234, 234, 255, 0.2);
-    border: 1px solid rgb(68, 81, 125);
+    border: 2px solid rgb(68, 81, 125);
     /* debug */
 }
 /* fine FOOTER */
