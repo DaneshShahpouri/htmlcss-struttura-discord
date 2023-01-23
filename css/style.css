@@ -11,6 +11,7 @@
     /* DEBUG */
     
     border-radius: 20px;
+    cursor: pointer;
 }
 /* fineUTILITY */
 
@@ -128,3 +129,262 @@ header{
         }
     /* fineJUMBO */
 /* Fine HEADER */
+
+/* MAIN */
+main .container{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+    /* Section */
+    .section.one{
+        height: 700px;
+        background-color: rgba(255, 255, 255,);
+        /* debug */
+    }
+
+    .section.two{
+        height: 700px;
+        background-color: rgba(0, 0, 0, 0.1);
+        /* debug */
+    }
+
+    .section.three{
+        height: 700px;
+        background-color: rgba(255, 255, 255,);
+        /* debug */
+    }
+
+    .section.four{
+        height: 700px;
+        background-color: rgba(0, 0, 0, 0.1);
+        /* debug */
+    }
+
+    .section .section_inner{
+        width: 75%;
+        height: 100%;
+        margin: 0 auto;
+
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .section_inner .img_wrapper{
+        background-color: rgba(41, 40, 65, 0.4);
+        /* debug */
+
+        width: 60%;
+        height: 450px;
+        
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    /* section one*/
+       
+        .one .section_inner .text{
+            width: 30%;
+            height: 450px;
+            background-color: rgba(41, 40, 65, 0.4);
+        }
+
+            /* prova testo e imamgini  */
+            /* DA CANCELLARE */
+            .one .section_inner .img_wrapper img{
+                width: 95%;
+                height: 80%;
+                background-color:rgba(41, 40, 65, 0.4);
+                /* debug */
+    
+                display: inline_block;
+            }
+
+            .one .section_inner .text h2{
+                width: 100%;
+                height: 250px;
+                background-color: rgba(41, 40, 65, 0.4);
+                /* debug */
+            }
+
+            .one .section_inner .text p{
+                margin-top: 20px;
+                width: 100%;
+                height: 150px;
+                background-color: rgba(94, 93, 145, 0.4);
+                /* debug */
+            }
+
+           /* fine prova testo e immagini  */
+    
+        /* fine section one*/
+
+
+        /* section two */
+        .two .section_inner .img_wrapper{
+           order: 2;
+        }
+
+        .two .section_inner .text{
+            width: 30%;
+            height: 450px;
+            background-color: rgba(41, 40, 65, 0.4);
+
+            order: 1;
+        }
+
+            /* prova testo e imamgini  */
+            /* DA CANCELLARE */
+            .two .section_inner .img_wrapper img{
+                width: 100%;
+                height: 100%;
+                background-color:rgba(41, 40, 65, 0.4);
+                /* debug */
+    
+                display: inline_block;
+            }
+
+            .two .section_inner .text h2{
+                width: 100%;
+                height: 150px;
+                background-color: rgba(41, 40, 65, 0.4);
+                /* debug */
+            }
+
+            .two .section_inner .text p{
+                margin-top: 20px;
+                width: 100%;
+                height: 200px;
+                background-color: rgba(94, 93, 145, 0.4);
+                /* debug */
+            }
+            /* fineprova testo e imamgini  */
+      
+        /* fine section two */
+
+
+        /* section three */
+            .three .section_inner .text{
+                width: 30%;
+                height: 450px;
+                background-color: rgba(41, 40, 65, 0.4);
+            }
+
+            /* prova testo e imamgini  */
+            /* DA CANCELLARE */
+                .three .section_inner .img_wrapper img{
+                    width: 100%;
+                    height: 100%;
+                    background-color:rgba(41, 40, 65, 0.4);
+                    /* debug */
+        
+                    display: inline_block;
+                }
+
+                .three .section_inner .text h2{
+                    width: 100%;
+                    height: 150px;
+                    background-color: rgba(41, 40, 65, 0.4);
+                    /* debug */
+                }
+
+                .three .section_inner .text p{
+                    margin-top: 20px;
+                    width: 100%;
+                    height: 200px;
+                    background-color: rgba(94, 93, 145, 0.4);
+                    /* debug */
+                }
+            /* fineprova testo e imamgini  */
+
+        /* fine section three */
+
+
+         /* section four */
+         .section.four .section_inner{
+            width: 75%;
+            height: 100%;
+            margin: 0 auto;
+    
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .four .section_inner .img_wrapper{
+            width: 80%;
+           order: 2;
+        }
+
+        .four .section_inner .text{
+            width: 100%;
+            height: 250px;
+            background-color: rgba(41, 40, 65, 0.4);
+            /* debug */
+
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+
+            order: 1;
+        }
+
+            /* prova testo e imamgini  */
+            /* DA CANCELLARE */
+            .four .section_inner .img_wrapper img{
+                width: 100%;
+                height: 100%;
+                background-color:rgba(41, 40, 65, 0.4);
+                /* debug */
+    
+                display: inline_block;
+            }
+
+            .four .section_inner .text h2{
+                width: 90%;
+                height: 50px;
+                background-color: rgba(41, 40, 65, 0.4);
+                /* debug */
+            }
+
+            .four .section_inner .text p{
+                margin-top: 20px;
+                width: 100%;
+                height: 100px;
+                background-color: rgba(94, 93, 145, 0.4);
+                /* debug */
+            }
+            /* fineprova testo e imamgini  */
+      
+        /* fine section four */
+
+        /* section five */
+        .five{
+            width: 75%;
+            margin: 0 auto;
+            height: 200px;
+            /* DEBUG */
+
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .five span{
+            display: inline-block;
+            width: 400px;
+            height: 40px;
+            background-color: rgba(94, 93, 145, 0.4);
+            margin-bottom: 20px;
+                /* debug */
+        }
+        /* fine section five */
+    /* fine Section */
+/* fineMAIN */
