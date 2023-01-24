@@ -318,13 +318,14 @@ main .container{
 
 .five span{
     display: inline-block;
-    width: 80%;
+    width: 50%;
     height: 40px;
     margin:20px auto;
         /* debug */
 }
 
 .five .btn_five{
+    width: 120px;
     border: 2px solid rgb(114, 137, 218);
     /* debug */
 }
