@@ -125,8 +125,6 @@ main *{
 main .container{
     display: flex;
     flex-flow: column nowrap;
-    max-width: 1500px;
-    min-width: 720px;
     margin: 0 auto;
 }
 
@@ -143,6 +141,8 @@ main .container{
 
 .section .section_inner{
     width: 75%;
+    min-width: 720px;
+    max-width: 1500px;
     height: 100%;
     margin: 0 auto;
 
@@ -275,14 +275,14 @@ main .container{
 /* prova testo e imamgini  */
 /* DA CANCELLARE */
 .four .section_inner .text h2{
-    width: 90%;
+    width: 80%;
     height: 50px;
     /* debug */
 }
 
 .four .section_inner .text p{
     margin-top: 20px;
-    width: 100%;
+    width: 80%;
     height: 100px;
     /* debug */
 }
@@ -300,6 +300,9 @@ main .container{
 
 .five_inner{
     width: 75%;
+    min-width: 720px;
+    max-width: 1500px;
+    margin: 0 auto;
     margin: 0 auto;
     height: 100%;
 
@@ -311,9 +314,9 @@ main .container{
 
 .five span{
     display: inline-block;
-    width: 400px;
+    width: 80%;
     height: 40px;
-    margin-bottom: 30px;
+    margin:20px auto;
         /* debug */
 }
 
